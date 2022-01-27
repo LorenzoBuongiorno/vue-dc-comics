@@ -96,6 +96,19 @@
                 <img src="@/assets/img/dc-logo-bg.png" alt="">
             </div>
         </div>
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="follow-box"><a href="#">sign-up now!</a></div>
+                <div class="social-links">
+                    <span>follow us</span>
+                        <a href="#"><img src="@/assets/img/footer-facebook.png" alt=""></a>
+                        <a href="#"><img src="@/assets/img/footer-twitter.png" alt=""></a>
+                        <a href="#"><img src="@/assets/img/footer-youtube.png" alt=""></a>
+                        <a href="#"><img src="@/assets/img/footer-pinterest.png" alt=""></a>
+                        <a href="#"><img src="@/assets/img/footer-periscope.png" alt=""></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </template>
 
