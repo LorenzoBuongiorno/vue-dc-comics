@@ -27,8 +27,8 @@ header{
                     font-size: 18px;
                     text-transform: uppercase;
                     &:hover{
-                        border-bottom: 5px solid $text-blue-color;
-                        color: $text-blue-color;
+                        border-bottom: 5px solid $main-color;
+                        color: $main-color;
                     }
                 }
             }

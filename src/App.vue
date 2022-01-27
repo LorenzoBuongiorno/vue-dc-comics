@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <header-box/>
-    <jumbotron/>
+    <jumbotron-box/>
+    <footer-box/>
   </div>
 </template>
 
 <script>
 import HeaderBox from './components/HeaderBox.vue'
-import Jumbotron from './components/Jumbotron.vue'
+import JumbotronBox from './components/JumbotronBox.vue'
+import FooterBox from './components/FooterBox.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderBox,
-    Jumbotron
+    JumbotronBox,
+    FooterBox
   }
 }
 </script>
