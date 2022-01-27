@@ -1,33 +1,76 @@
-
-.buy-bar{
-    background-color: $main-color;
-    display: flex;
-    justify-content: space-around;
-    ul{
+footer{
+    background: url('../assets/img/footer-bg.jpg');
+    background-size: cover;
+    .buy-bar{
+        background-color: $main-color;
         display: flex;
         justify-content: space-around;
-        width: 1500px;
-        padding: 15px;
-        li{
+        ul{
             display: flex;
-            align-items: center;
-            a{
+            justify-content: space-around;
+            width: 1500px;
+            padding: 15px;
+            li{
                 display: flex;
                 align-items: center;
-                .footer-buy-image{
-                    width: 90px;
-                    padding: 10px;
-                    img{
-                        width: 100%;
+                a{
+                    display: flex;
+                    align-items: center;
+                    .footer-buy-image{
+                        width: 90px;
+                        padding: 10px;
+                        img{
+                            width: 100%;
+                        }
                     }
-                }
-                span{
-                    margin-left: 10px;
-                    color: $text-light-color;
-                    font-size: 15px;
-                    text-transform: uppercase;
+                    span{
+                        margin-left: 10px;
+                        color: $text-light-color;
+                        font-size: 15px;
+                        text-transform: uppercase;
+                    }
                 }
             }
         }
+    }
+    .footer-links{
+        width: 1500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .row{
+            margin-top: 30px;
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            div{
+                padding: 15px;
+                h1{
+                    color: $text-light-color;
+                    text-transform: uppercase;
+                }
+                ul{
+                    margin-top: 10px;
+                    li{
+                        line-height: 25px;
+                        a{
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+        .dc-logo-bg{
+            width: 700px;
+            position: relative;
+
+            img{
+                position: absolute;
+                top: -100px;
+                width: 100%;
+            }
+        }
+    
     }
 }
