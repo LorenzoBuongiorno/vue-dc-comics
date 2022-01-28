@@ -122,4 +122,6 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 @import '@/style/footer.scss';
+@import '@/style/footerBuy.scss';
+@import '@/style/footerSocials.scss';
 </style>
