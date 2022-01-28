@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box/>
+    <header-box :nav="nav"/>
     <jumbotron-box/>
     <footer-box/>
   </div>
@@ -17,6 +17,63 @@ export default {
     HeaderBox,
     JumbotronBox,
     FooterBox
+  },
+  data () {
+    return {
+      nav: [
+        {
+          id: 234235316,
+          url: "#",
+          label: "characters",
+        },
+        {
+          id: 23454589,
+          url: "#",
+          label: "comics",
+        },
+        {
+          id: 43534543,
+          url: "#",
+          label: "movies",
+        },
+        {
+          id: 34543523,
+          url: "#",
+          label: "tv",
+        },
+        {
+          id: 34534512,
+          url: "#",
+          label: "games",
+        },
+        {
+          id: 34543545,
+          url: "#",
+          label: "collectibles",
+        },
+        {
+          id: 36565623,
+          url: "#",
+          label: "videos",
+        },
+        {
+          id: 56746745,
+          url: "#",
+          label: "fans",
+        },
+        {
+          id: 45753445,
+          url: "#",
+          label: "news",
+        },
+        {
+          id: 54623621,
+          url: "#",
+          label: "shop",
+        }
+      ]
+
+    }
   }
 }
 </script>
