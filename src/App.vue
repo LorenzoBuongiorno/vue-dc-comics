@@ -2,7 +2,7 @@
   <div id="app">
     <header-box :nav="nav"/>
     <jumbotron-box/>
-    <main-box/>
+    <main-box :cards="cards"/>
     <footer-box/>
   </div>
 </template>
