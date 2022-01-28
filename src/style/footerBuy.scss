@@ -2,6 +2,8 @@
     background-color: $main-color;
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 2;
     ul{
         display: flex;
         justify-content: space-around;
