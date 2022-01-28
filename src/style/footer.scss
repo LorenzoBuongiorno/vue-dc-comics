@@ -6,6 +6,7 @@ footer{
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        overflow: hidden;
         .row{
             margin-top: 30px;
             width: 500px;
@@ -38,7 +39,6 @@ footer{
                 top: -100px;
                 width: 100%;
                 display: block;
-                z-index: 1;
             }
         }
     
